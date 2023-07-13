@@ -1,48 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Movable Elements</title>
-  <style>
-
-    .movable-element {
-      position: absolute;
-      width: 100px;
-      height: 100px;
-      border-radius: 10px;
-      background: linear-gradient(rgb(139, 67, 67), rgb(161, 76, 76));
-      color: whitesmoke;
-      text-align: center;
-      font-size: 15px;
-      cursor: move;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div id="container">
-    <div class="movable-element">
-          <h4>Element 1</h4>
-          Drag Me
-    </div>
-    <div class="movable-element">
-          <h4>Element 2</h4>
-          Drag Me
-    </div>
-    <div class="movable-element">
-          <h4>Element 3</h4>
-          Drag Me
-    </div>
-    <div class="movable-element">
-          <h4>Element 4</h4>
-          Drag Me
-    </div>
-    <div class="movable-element">
-          <h4>Element 5</h4>
-          Drag Me
-    </div>
-  </div>
 
-  <script src="Draggable.js"></script>
+<body>
+    <div class="container">
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="switch">
+            <span class="slider"></span>
+        </label>
+    </div>
 </body>
+
 </html>
